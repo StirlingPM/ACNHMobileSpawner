@@ -11,6 +11,7 @@ public class UI_ACItem : MonoBehaviour, IPointerClickHandler
     public MultiImage TreeMultiImage;
 	public Text[] FiveInts;
 	public bool Dummy;
+    public Texture blank;
 
 	[HideInInspector]
 	public Item ItemAssigned;
@@ -43,7 +44,14 @@ public class UI_ACItem : MonoBehaviour, IPointerClickHandler
             TreeMultiImage.gameObject.SetActive(false);
             ImageComponent.enabled = true;
             Texture2D imageToAssign = SpriteBehaviour.ItemToTexture2D(ItemAssigned, out var c);
-            ImageComponent.texture = imageToAssign;
+            if (imageToAssign)
+            {
+                ImageComponent.texture = imageToAssign;
+            }
+            else
+            {
+                ImageComponent.texture = blank;
+            }
             ImageComponent.color = c;
         }
 
