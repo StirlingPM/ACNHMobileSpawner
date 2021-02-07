@@ -1,5 +1,13 @@
-# ACNHSpawner 
-For mobile and desktop, despite the name.
+# Nookazon 
+
+Nookazon is a UI overhaul for the fantastic ACNHMobileSpawner. The project aims to have a user friendly UI that mimics the style of ACNH, and makes maximum use of limited screen real estate.
+### Screenshots
+
+<img src = "https://raw.githubusercontent.com/StirlingPM/Nookazon/master/Capture.PNG" width = "600">
+
+
+The rest of this read me is direct from the original project, and may not 100% represent the changes made in this fork.
+
 
 Multi-tool app for Animal Crossing: New Horizons built in Unity. Designed to be used while you are playing the game so you don't have to manually edit saves on a PC. Confirmed working on Windows, Mac, Linux, Android and iOS.
 
@@ -39,9 +47,6 @@ Each major release is built for Windows, Android, MacOSX and iOS. You may downlo
 
 iOS builds are auto-built and untested, but I've been told they work. 
 
-### Screenshots
-
-<img src = "https://user-images.githubusercontent.com/66521620/84556327-bcb53000-ad19-11ea-96c6-12dc65441efd.png" width = "300">
 
 ### Video guide
 
